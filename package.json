@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Harshad2210/workindia-stackoverflow/issues"
   },
-  "homepage": "https://github.com/Harshad2210/workindia-stackoverflow#readme"
+  "homepage": "https://github.com/Harshad2210/workindia-stackoverflow#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cryptr": "^6.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
 }
